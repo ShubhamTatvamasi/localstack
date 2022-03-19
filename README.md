@@ -13,3 +13,8 @@ docker run -d \
   --name localstack \
   localstack/localstack
 ```
+
+Stop localstack:
+```bash
+docker rm -f localstack
+```
