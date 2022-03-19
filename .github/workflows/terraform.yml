@@ -1,4 +1,4 @@
-name: Terraform LocalStack
+name: Terraform
 
 on: [push]
 
