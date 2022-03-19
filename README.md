@@ -1,5 +1,7 @@
 # localstack
 
+[![terraform](https://github.com/ShubhamTatvamasi/localstack/actions/workflows/terraform.yml/badge.svg)](https://github.com/ShubhamTatvamasi/localstack/actions/workflows/terraform.yml)
+
 Install localstack:
 ```bash
 python3 -m pip install localstack
