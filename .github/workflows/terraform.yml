@@ -8,4 +8,4 @@ jobs:
     steps:
 
     - name: Terraform LocalStack
-      uses: ShubhamTatvamasi/terraform-action@latest
+      uses: ShubhamTatvamasi/terraform-action@v1
