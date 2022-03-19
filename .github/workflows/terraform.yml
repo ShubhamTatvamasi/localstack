@@ -21,3 +21,6 @@ jobs:
 
     - name: Apply
       run: terraform apply -auto-approve
+
+    - name: Show
+      run: terraform show
