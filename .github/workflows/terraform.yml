@@ -11,12 +11,7 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Start localstack
-      run: |
-        docker run -d \
-          -p 4566:4566 \
-          -p 4571:4571 \
-          --name localstack \
-          localstack/localstack
+      run: docker run -d -p 4566:4566 -p 4571:4571 localstack/localstack
 
     - name: Initialize
       run: terraform init
