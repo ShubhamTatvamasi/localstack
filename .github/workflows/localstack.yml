@@ -1,0 +1,11 @@
+name: localstack
+
+on: [push]
+
+jobs:
+  localstack:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - run: |
+      terraform init
