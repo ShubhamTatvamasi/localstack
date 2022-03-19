@@ -18,8 +18,11 @@ jobs:
           --name localstack \
           localstack/localstack
 
-    - name: Initialize terraform
+    - name: Initialize
       run: terraform init
 
-    - name: Apply terraform
+    - name: Validate
+      run: terraform validate
+
+    - name: Apply
       run: terraform apply -auto-approve
