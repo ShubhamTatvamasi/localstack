@@ -9,6 +9,8 @@ jobs:
 
     - name: Checkout
       uses: actions/checkout@v3
+    
+    - run: rm providers.tf
 
     - name: Terraform LocalStack
       uses: ShubhamTatvamasi/terraform-localstack-action@master
